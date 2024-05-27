@@ -265,7 +265,12 @@ div.Principal{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     justify-content: center;
-    width:180px;
+    width: 100%;
+    }
+    .basev iframe{
+        width: 320px;
+        height: 180px;
+        margin-right: 3px;
     }
     .cuerpobase{
     display: flex;
@@ -288,7 +293,11 @@ div.Principal{
     .baf{
     display: flex;
     flex-direction: column;
-    margin: 100%x;
+    margin: 10px;
+    }
+    .baf iframe{
+        width: 320px;
+        height: 180px;
     }
     .Principal{
     display: flex;
